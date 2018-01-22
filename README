@@ -1,0 +1,10 @@
+轻量级接口自动化测试工程
+
+作者：阳成文
+
+使用介绍：
+core目录下有4个文件
+api_suit.py:    编写测试用例的文件
+apitest_lists.py:   需要执行的测试用例清单（会在report.py中被执行）
+HTMLTestRunner.py:  调用的开源html报告模板
+report.py:  执行文件，执行apitest_lists.py里的用例清单后，生成报告（报告路径可自定义设置）
