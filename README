@@ -3,6 +3,12 @@
 作者：阳成文
 
 使用介绍：
+
+使用前需要更新依赖包
+pip freeze > requirements.txt （生成依赖模块列表）
+pip install -r requirements.txt （导入requirements.txt列表里的依赖模块）
+
+
 core目录下有4个文件
 api_suit.py:    编写测试用例的文件
 apitest_lists.py:   需要执行的测试用例清单（会在report.py中被执行）
